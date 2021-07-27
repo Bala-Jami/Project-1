@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/college-logo.jpg" loading="lazy"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hide()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="show"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!-------------Course  --------->
+
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, sequi!</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio pariatur quo velit voluptas blanditiis quae ex eum ut quisquam ratione?</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio pariatur quo velit voluptas blanditiis quae ex eum ut quisquam ratione?</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post graduation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio pariatur quo velit voluptas blanditiis quae ex eum ut quisquam ratione?</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-------------------------facilities---------------->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, laboriosam.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/college-5.jpg" loading="lazy">
+                    <h3>Entire View</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, corrupti quidem? Accusantium placeat numquam illum magnam ad animi, unde libero.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/college-4.jpg" loading="lazy">
+                    <h3>Amphitheatre</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, corrupti quidem? Accusantium placeat numquam illum magnam ad animi, unde libero.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/college-4.jpg" loading="lazy">
+                    <h3>Auditorium</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, corrupti quidem? Accusantium placeat numquam illum magnam ad animi, unde libero.</p>
+                </div>
+            </div>
+        </section>
+       
+        <!--------  Footer      -------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora quis at iste? A vitae doloremque itaque ducimus molestiae,<br> reprehenderit et dolor eveniet consequatur nostrum, sed corrupti, tempore dignissimos deleniti!</p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <p>Made With <i class="far fa-heart"></i> by Balu</i></p>
+        </section>
+
+        <!---------     JavaScript Toggle menu   ----->
+        <script>
+            var navLinks=document.getElementById("navLinks")
+            function show(){
+                navLinks.style.right="0"
+            }
+            function hide(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>

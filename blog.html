@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/college-logo.jpg" loading="lazy"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hide()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="show"></i>
+            </nav>
+            <h1>Our Certificate and Online Programs</h1>
+        </section>
+
+        <!---------------------------Blog Page Content------------>
+        
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/college-library.jpg" loading="lazy">
+                    <h2>Our Certificate & Online Programs</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis aperiam illum illo, nam sint, soluta error earum molestias distinctio aspernatur quaerat. Natus id praesentium illo alias provident, recusandae numquam ducimus assumenda minus aspernatur. In temporibus doloribus hic obcaecati ratione debitis sapiente, culpa quia delectus dicta voluptatum rerum error harum facere. Ab, nihil atque veniam quod ipsum dolores qui molestiae accusamus, nam possimus sapiente fugit amet obcaecati error temporibus harum consequatur.</p>
+                    <br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus architecto atque nam. Delectus impedit, itaque voluptates, placeat, eligendi ipsum est dolor quos quam harum reiciendis modi illum ipsa sequi libero nam nostrum ad totam odio a illo iusto quas? Accusamus, officiis sunt vero perspiciatis consequatur nulla quisquam cupiditate a consectetur asperiores aperiam ratione consequuntur similique amet quas aliquid molestias?</p>
+                    <br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi praesentium voluptas officiis nisi possimus quasi cum, illo tempore repellat fugiat vitae facilis inventore expedita fuga reprehenderit adipisci molestiae maiores aliquam nemo, reiciendis tenetur beatae ipsum consequuntur. Nemo, eius! Ab sapiente iure vitae nam adipisci ipsam assumenda perferendis officiis corporis deserunt?</p>
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                    </div>
+                </div>
+              
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Communication Learning</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Software Designing</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Artificial Intelligence</span>
+                        <span>21</span>
+                    </div>
+                </div> 
+            </div>
+        </section>
+       
+        <!--------  Footer      -------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora quis at iste? A vitae doloremque itaque ducimus molestiae,<br> reprehenderit et dolor eveniet consequatur nostrum, sed corrupti, tempore dignissimos deleniti!</p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <p>Made With <i class="far fa-heart"></i> by Balu</i></p>
+        </section>
+
+        <!---------     JavaScript Toggle menu   ----->
+        <script>
+            var navLinks=document.getElementById("navLinks")
+            function show(){
+                navLinks.style.right="0"
+            }
+            function hide(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>
